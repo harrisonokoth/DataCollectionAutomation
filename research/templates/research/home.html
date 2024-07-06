@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .header, .footer {
+            background-color: #007bff; /* Unique background color */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the Quantitative Study on Data Privacy in AI Decision-Making Algorithms in the Banking Sector</h1>
+    </div>
+    <div class="container">
+        <nav class="mt-4">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'privacy_assessment' %}" target="_blank">Privacy Assessment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'regulatory_evaluation' %}" target="_blank">Regulatory Evaluation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'evaluation' %}" target="_blank">Evaluation</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 by Mensa Kwaku. All rights reserved.</p>
+    </div>
+</body>
+</html>
